@@ -1,0 +1,66 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+#center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-logo {
+  height: 200px;
+  will-change: filter;
+  transition: filter 300ms;
+  animation: float 6s ease-in-out infinite;
+}
+.app-logo:hover {
+  filter: drop-shadow(0 0 2em rgba(100, 108, 255, 0.6));
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+h1 {
+  font-size: 3.2em;
+  font-weight: 600;
+  margin: 0 0 0.5em 0;
+  letter-spacing: -0.02em;
+}
+
+p {
+  color: #888;
+  font-size: 1.1em;
+}
+
+code {
+  background-color: #1a1a1a;
+  padding: 0.2em 0.4em;
+  border-radius: 6px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+@media (prefers-color-scheme: light) {
+  code {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+}
