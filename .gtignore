@@ -25,3 +25,4 @@ dist-ssr
 LICENSE
 .oxlintrc.json
 vite.config.js
+.gitignore
