@@ -1,0 +1,14 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.vscode": true,
+    "**/.gtignore": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/package-lock.json": true,
+    "**/.gitignore": true,
+    "**/LICENSE": true,
+    "**/.oxlintrc.json": true,
+    "**/vite.config.js": true
+  }
+}
