@@ -26,3 +26,4 @@ LICENSE
 .oxlintrc.json
 vite.config.js
 .gitignore
+plugins/previewPlugin.js

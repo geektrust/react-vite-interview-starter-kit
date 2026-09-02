@@ -9,6 +9,7 @@
     "**/.gitignore": true,
     "**/LICENSE": true,
     "**/.oxlintrc.json": true,
-    "**/vite.config.js": true
+    "**/vite.config.js": true,
+    "**/plugins/previewPlugin.js": true
   }
 }

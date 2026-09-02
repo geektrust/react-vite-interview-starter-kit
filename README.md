@@ -9,6 +9,9 @@ npm install
 npm run dev
 ```
 
+And you can view the app preview at:
+[Preview App]({URL})
+
 ## Project Structure
 - `src/`: This is where you will write your React components and logic.
 - `package.json`: You can add any necessary third-party dependencies here.
